@@ -17,7 +17,8 @@ cd /usr/share
 wget https://github.com/Schwarzerteddydev/phpMyAdmin/archive/refs/heads/main.zip -O phpmyadmin.zip
 unzip phpmyadmin.zip
 rm phpmyadmin.zip
-mv phpMyAdmin-*-all-languages phpmyadmin
+#mv phpMyAdmin-*-all-languages phpmyadmin
+phpmyadmin phpmyadmin
 chmod -R 0755 phpmyadmin
 
 #Vhost Erstellen
