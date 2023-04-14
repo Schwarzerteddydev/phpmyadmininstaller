@@ -14,11 +14,10 @@ apt install mariadb-server mariadb-client -y
 #mysql_secure_installation
 cd /usr/share
 #wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
-wget https://github.com/Schwarzerteddydev/phpMyAdmin/archive/refs/heads/main.zip -O phpmyadmin.zip
+wget https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip -O phpmyadmin.zip
 unzip phpmyadmin.zip
 rm phpmyadmin.zip
-#mv phpMyAdmin-*-all-languages phpmyadmin
-phpmyadmin phpmyadmin
+mv phpMyAdmin-*-all-languages phpmyadmin
 chmod -R 0755 phpmyadmin
 
 #Vhost Erstellen
