@@ -13,7 +13,8 @@ apt install php7.4 php7.4-cli php7.4-common php7.4-curl php7.4-gd php7.4-intl ph
 apt install mariadb-server mariadb-client -y
 #mysql_secure_installation
 cd /usr/share
-wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
+#wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
+wget https://github.com/Schwarzerteddydev/phpMyAdmin/archive/refs/heads/main.zip -O phpmyadmin.zip
 unzip phpmyadmin.zip
 rm phpmyadmin.zip
 mv phpMyAdmin-*-all-languages phpmyadmin
